@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; media-src *; font-src * 'self' data:">
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Demo4</title>
+    </head>
+    <body>
+        <div class="view" id="mainView">
+            <header><h1>My Header</h1></header>
+            <div class="pages">
+                <div id="pnlMainMenu" data-title="Cordova App" class="panel" selected="true" data-tab="main_menu" style="height: 100%">
+                    <ul class="list" id="lstMenuItems" style="width: 100%; height: 100%">
+                        <li><a href="#pnlCalcPrimes">Max Primes</a></li>
+                        <li><a href="#pnlAzureList">Azure List</a></li>
+                    </ul>
+                </div>
+                <div id="pnlCalcPrimes" data-title="Calc Max Prime" class="panel">
+                    <h1>Max Number To Search:</h1>
+                    <input id="txtMaxPrime" type="text">
+                    <a class="button" id="btnCalculate">Calculate Primes</a>
+                </div>
+                <div id="pnlAzureList" data-title="Azure List" class="panel" style="height: 100%" js-scrolling="true">
+                    <a class="button" id="btnClearList">Clear</a>
+                    <br />
+                    <a class="button" id="btnShowList">Fetch Results</a>
+                    <br />
+                    <ul class="list" id="lstRegistrations" style="width: 100%; overflow: scroll"></ul>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+
+        <script src="scripts/jquery/jquery.min.js"></script>
+        <link href="css/intel-appframework/af.ui.base.css" rel="stylesheet" />
+        <link href="css/intel-appframework/af.ui.css" rel="stylesheet" />
+        <script src="scripts/intel-appframework/appframework.ui.min.js"></script>
+        <link href="css/intel-appframework/icons.min.css" rel="stylesheet" />
+        <script src="scripts/fastclick/fastclick.js"></script>
+
+    <script type="text/javascript" src="scripts/index.js"></script>
+    </body>
+</html>

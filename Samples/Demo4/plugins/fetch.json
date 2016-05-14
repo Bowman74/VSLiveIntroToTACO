@@ -1,0 +1,35 @@
+{
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.microsoft.azure-mobile-services": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Azure/azure-mobile-services-cordova",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Demo3",
+  "dependencies": {
+    "jquery": "2.1.4"
+  }
+}
