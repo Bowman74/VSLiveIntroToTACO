@@ -8,7 +8,7 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.myapp43ae72"
+            "PACKAGE_NAME": "com.magenic.Demo1"
         }
     },
     "dependent_plugins": {}
