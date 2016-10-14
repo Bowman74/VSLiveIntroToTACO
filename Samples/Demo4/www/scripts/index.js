@@ -75,7 +75,7 @@
     }
 
     function showAzureList() {
-        var client = new WindowsAzure.MobileServiceClient("https://malor2014jsmobileservice.azure-mobile.net/", "<some key here>");
+        var client = new WindowsAzure.MobileServiceClient("https://malor2014jsmobileservice.azure-mobile.net/", "pdFskoBXcwzaDNTpuRWdVRhUIRYcFF14");
         if (!activeConnection()) {
             $.afui.popup({
                 title: "No connection available",
