@@ -70,7 +70,7 @@
     <Service Include="{4a0dddb5-7a95-4fbf-97cc-616d07737a77}" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>420481d0-a5e1-44e4-9e99-da80e41b0d0b</ProjectGuid>
+    <ProjectGuid>58cbe3dc-16f1-4a9b-bd4d-21ef9a0434a3</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0'">
@@ -103,7 +103,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties project_1json__JSONSchema="http://www.asp.net/media/4878834/project.json" />
+      <UserProperties />
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="_apacheCordovaProjectSourceItems.Targets" Condition="Exists('_apacheCordovaProjectSourceItems.Targets')" />

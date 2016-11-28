@@ -7,26 +7,26 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "io.cordova.myapp4ed964"
-        },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "io.cordova.myapp4ed964"
+            "PACKAGE_NAME": "io.cordova.myappc09050"
         },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "io.cordova.myapp4ed964"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "io.cordova.myapp4ed964"
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.cordova.myappc09050"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.myapp4ed964"
+            "PACKAGE_NAME": "io.cordova.myappc09050"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.cordova.myappc09050"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.cordova.myappc09050"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "io.cordova.myapp4ed964"
+            "PACKAGE_NAME": "io.cordova.myappc09050"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "io.cordova.myapp4ed964"
+            "PACKAGE_NAME": "io.cordova.myappc09050"
         }
     },
     "dependent_plugins": {}

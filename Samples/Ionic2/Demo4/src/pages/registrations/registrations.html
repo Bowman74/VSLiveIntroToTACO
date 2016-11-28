@@ -1,0 +1,13 @@
+﻿<ion-header>
+    <ion-navbar>
+        <ion-title>Registrations</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <button ion-item *ngFor="let registration of registrations" (click)="itemSelected(registration)">
+            {{registration.screenname}}
+        </button>
+    </ion-list>
+</ion-content>
