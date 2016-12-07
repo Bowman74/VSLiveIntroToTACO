@@ -7,33 +7,34 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "io.cordova.myapp579688"
-        },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "io.cordova.myapp579688"
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
         },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "io.cordova.myapp579688"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "io.cordova.myapp579688"
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.myapp579688"
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "io.cordova.myapp579688"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "io.cordova.myapp579688"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "io.cordova.demo4"
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
         },
         "com.microsoft.azure-mobile-services": {
-            "PACKAGE_NAME": "io.cordova.demo4"
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "io.cordova.myappda03f0"
+        }
+    }
 }

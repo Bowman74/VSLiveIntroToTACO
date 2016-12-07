@@ -1,0 +1,11 @@
+﻿<ion-header>
+    <ion-navbar>
+        <ion-title>Primes</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-label>Enter a number to find the max prime:</ion-label>
+    <ion-input type="number" [(ngModel)]="maxValue"></ion-input>
+    <button ion-button outline (tap)="findMaxPrime($event)">Find Max</button>
+</ion-content>
